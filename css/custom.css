@@ -34,12 +34,13 @@
 }
 
 .reveal .slides section {
-  padding: 40px 60px;
+  padding: 20px 40px;
   box-sizing: border-box;
   height: 100%;
   display: flex !important;
   flex-direction: column;
   justify-content: center;
+  font-size: 75%;
 }
 
 /* --- Typography --- */
@@ -56,26 +57,26 @@
 }
 
 .reveal h1 {
-  font-size: 2.6em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 .reveal h2 {
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: 700;
 }
 
 .reveal h3 {
-  font-size: 1.2em;
+  font-size: 0.95em;
   font-weight: 600;
   color: var(--gold);
 }
 
 .reveal p {
   font-size: 0.72em;
-  line-height: 1.7;
+  line-height: 1.5;
   color: var(--text-light);
-  margin-bottom: 0.6em;
+  margin-bottom: 0.4em;
 }
 
 .reveal small {
@@ -88,7 +89,7 @@
   height: 3px;
   background: var(--gold);
   border: none;
-  margin: 0 0 1.2em 0;
+  margin: 0 0 0.6em 0;
 }
 
 .gold-line.center {
@@ -137,7 +138,7 @@
 }
 
 .slide-cover .school-name {
-  font-size: 3em;
+  font-size: 2.2em;
   font-weight: 700;
   color: var(--white);
   margin-bottom: 0.1em;
@@ -145,7 +146,7 @@
 }
 
 .slide-cover .tagline {
-  font-size: 1.1em;
+  font-size: 0.9em;
   color: var(--gold);
   font-style: italic;
   margin-bottom: 1.5em;
@@ -198,7 +199,7 @@
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 12px;
-  padding: 1.4em;
+  padding: 0.9em;
   transition: border-color 0.3s ease;
 }
 
@@ -218,22 +219,22 @@
 }
 
 .card .icon {
-  font-size: 1.8em;
-  margin-bottom: 0.4em;
+  font-size: 1.4em;
+  margin-bottom: 0.2em;
   display: block;
 }
 
 /* --- Stat Boxes --- */
 .stat-box {
   text-align: center;
-  padding: 1.2em;
+  padding: 0.8em;
   background: rgba(201, 168, 76, 0.06);
   border: 1px solid rgba(201, 168, 76, 0.15);
   border-radius: 12px;
 }
 
 .stat-box .stat-number {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 700;
   color: var(--gold);
   display: block;
@@ -282,7 +283,7 @@
   display: flex;
   align-items: flex-end;
   gap: 1.5em;
-  height: 180px;
+  height: 140px;
   padding: 0 1em;
   margin: 1em 0;
 }
@@ -340,7 +341,7 @@
 .timeline-item {
   position: relative;
   padding-left: 50px;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.7em;
 }
 
 .timeline-item::before {
@@ -432,9 +433,9 @@
 .highlight-box {
   background: rgba(201, 168, 76, 0.08);
   border-left: 3px solid var(--gold);
-  padding: 1em 1.4em;
+  padding: 0.6em 1em;
   border-radius: 0 8px 8px 0;
-  margin: 0.8em 0;
+  margin: 0.5em 0;
 }
 
 .highlight-box p {
